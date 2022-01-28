@@ -38,7 +38,7 @@
 		
 			<fileset id="testcases" dir="../tests"></fileset>
 
-			<emailProperties sendEmail="true" primaryRecipients="aastha.jain@provartesting.com" ccRecipients="" bccRecipients="" emailSubject="Provar test run report" attachExecutionReport="true" attachZip="true"/>
+			<emailProperties sendEmail="false" primaryRecipients="aastha.jain@provartesting.com" ccRecipients="" bccRecipients="" emailSubject="Provar test run report" attachExecutionReport="true" attachZip="true"/>
 			<attachmentProperties includeAllFailuresInSummary="true" includeBdd="false" includeTestCasePathHierarchy="true" includeTestCaseShowSummary="true" includeBasicLogs="false" includeDetailLogs="false" includeDiagnosticTrace="false" includeTestStepTime="true" includeNoScreenshot="false" includeScreenshotThumbnail="false" includeFullScreenShot="true"/>
 		</Run-Test-Case>
 
